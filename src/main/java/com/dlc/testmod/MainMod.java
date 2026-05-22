@@ -1,6 +1,7 @@
 package com.dlc.testmod;
 
 import com.mojang.logging.LogUtils;
+import com.dlc.testmod.item.LightningWeaponItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
@@ -34,6 +35,10 @@ public class MainMod {
     // 定义新物品
     public static final RegistryObject<Item> NEW_ITEM = ITEMS.register("new_item",
             () -> new BlockItem(myblock.get(), new Item.Properties()));
+
+    // 注册熊头棍武器
+    public static final RegistryObject<Item> BEAR_WEAPON = ITEMS.register("bear_weapon",
+            () -> new LightningWeaponItem(new Item.Properties()));
     // ItemInit.java
 //    public static final RegistryObject<Item> CRYING_DIAMOND = ITEMS.register("crying_diamond",
 //            () -> new Item(new Item.Properties())); // 直接使用 new Item.Properties()
@@ -53,11 +58,10 @@ public class MainMod {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(NEW_ITEM);
         }
+        if (event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(BEAR_WEAPON);
+        }
     }
 
-    // 服务器启动事件（可选）
- //   @SubscribeEvent
-//    public void onServerStarting(ServerStartingEvent event) {
-//        LOGGER.info("HELLO from server starting");
-//    }
+
 }
