@@ -1,0 +1,151 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "testmod:item/pig_weapon",
+		"particle": "testmod:item/pig_weapon"
+	},
+	"elements": [
+		{
+			"name": "wood_post_center",
+			"from": [-0.25, -1, -0.5],
+			"to": [0.75, 16, 0.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.75, 0, -0.5]},
+			"faces": {
+				"north": {"uv": [0.11719, 6.6875, 0.15625, 9.8125], "texture": "#0"},
+				"east": {"uv": [0.03906, 6.6875, 0.07813, 9.8125], "texture": "#0"},
+				"south": {"uv": [0.19531, 6.6875, 0.23438, 9.8125], "texture": "#0"},
+				"west": {"uv": [0.15625, 6.6875, 0.19531, 9.8125], "texture": "#0"},
+				"up": {"uv": [0.15625, 7.46875, 0.11719, 7.27344], "texture": "#0"},
+				"down": {"uv": [0.23438, 7.27344, 0.19531, 7.46875], "texture": "#0"}
+			}
+		},
+		{
+			"name": "pig_snout_center",
+			"from": [-2, 19, -7],
+			"to": [2, 21, -6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1, 0]},
+			"faces": {
+				"north": {"uv": [1, 1, 5, 3], "texture": "#0"},
+				"east": {"uv": [0, 1, 1, 3], "texture": "#0"},
+				"south": {"uv": [6, 1, 10, 3], "texture": "#0"},
+				"west": {"uv": [5, 1, 6, 3], "texture": "#0"},
+				"up": {"uv": [5, 1, 1, 0], "texture": "#0"},
+				"down": {"uv": [9, 0, 5, 1], "texture": "#0"}
+			}
+		},
+		{
+			"name": "pig_ear_left_center",
+			"from": [-8, 23, -2],
+			"to": [-6, 27, 2],
+			"faces": {
+				"north": {"uv": [0, 0, 1.625, 0.90625], "texture": "#0"},
+				"east": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"south": {"uv": [0, 0, 1.625, 0.90625], "texture": "#0"},
+				"west": {"uv": [0, 0, 3.25, 0.90625], "texture": "#0"},
+				"up": {"uv": [0, 0, 1.625, 0.90625], "texture": "#0"},
+				"down": {"uv": [0, 0, 1.625, 0.90625], "texture": "#0"}
+			}
+		},
+		{
+			"name": "pig_ear_right_center",
+			"from": [6, 23, -2],
+			"to": [8, 27, 2],
+			"faces": {
+				"north": {"uv": [0, 0, 1.625, 0.90625], "texture": "#0"},
+				"east": {"uv": [0, 0, 3.25, 0.90625], "texture": "#0"},
+				"south": {"uv": [0, 0, 1.625, 0.90625], "texture": "#0"},
+				"west": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"up": {"uv": [0, 0, 1.625, 0.90625], "texture": "#0"},
+				"down": {"uv": [0, 0, 1.625, 0.90625], "texture": "#0"}
+			}
+		},
+		{
+			"from": [2, 24, -7],
+			"to": [4, 25, -6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 23, -8]},
+			"faces": {
+				"north": {"uv": [0, 5.6875, 0.25, 5.75], "texture": "#0"},
+				"east": {"uv": [0, 0, 1, 1], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 1], "texture": "#0"},
+				"west": {"uv": [1, 0, 2, 1], "texture": "#0"},
+				"up": {"uv": [0, 1, 2, 2], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 1], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-4, 24, -7],
+			"to": [-2, 25, -6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-4, 23, -8]},
+			"faces": {
+				"north": {"uv": [1, 3, 3, 4], "texture": "#0"},
+				"east": {"uv": [0, 3, 1, 4], "texture": "#0"},
+				"south": {"uv": [4, 3, 6, 4], "texture": "#0"},
+				"west": {"uv": [3, 3, 4, 4], "texture": "#0"},
+				"up": {"uv": [3, 3, 1, 2], "texture": "#0"},
+				"down": {"uv": [5, 2, 3, 3], "texture": "#0"}
+			}
+		},
+		{
+			"name": "pig_head_center",
+			"from": [-6, 16, -6],
+			"to": [6, 28, 6],
+			"faces": {
+				"north": {"uv": [0, 4.3125, 2.0625, 5.34375], "texture": "#0"},
+				"east": {"uv": [0, 4.3125, 0.17188, 4.39844], "texture": "#0"},
+				"south": {"uv": [0, 4.3125, 0.17188, 4.39844], "texture": "#0"},
+				"west": {"uv": [0, 4.3125, 0.17188, 4.39844], "texture": "#0"},
+				"up": {"uv": [0, 4.3125, 0.17188, 4.39844], "texture": "#0"},
+				"down": {"uv": [0, 4.3125, 0.17188, 4.39844], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [5, 4.75, 5.25],
+			"scale": [0.62305, 0.58398, 0.59766]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-4.75, 3.75, 5.5],
+			"scale": [0.64648, 0.62891, 0.61328]
+		},
+		"firstperson_righthand": {
+			"translation": [7.5, -0.5, 0],
+			"scale": [0.77344, 0.77734, 0.50391]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, -5.25, 0],
+			"scale": [1, 1, 0.63672]
+		},
+		"ground": {
+			"translation": [-0.25, 0.25, 8.25],
+			"scale": [0.67969, 0.70117, 0.74023]
+		},
+		"gui": {
+			"rotation": [1, -180, 0],
+			"translation": [-4, -2.75, -14],
+			"scale": [0.52, 0.45, 3.08]
+		},
+		"head": {
+			"translation": [7.25, -1.5, 7.5]
+		},
+		"fixed": {
+			"translation": [5, -3, 4.5],
+			"scale": [0.6543, 0.59961, 0.67383]
+		},
+		"on_shelf": {
+			"rotation": [0, -180, 0],
+			"translation": [-5.75, -6, -9],
+			"scale": [0.78, 0.87, 1.1]
+		}
+	},
+	"groups": [
+		{
+			"name": "main_pig_post",
+			"origin": [0, 0, 0],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6]
+		}
+	]
+}
